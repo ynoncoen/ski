@@ -45,14 +45,14 @@
       "id": "booking-4"
     },
     {
-      "date": "23.1",
+      "date": "21.1",
       "time": "19:00",
-      "name": "Le Festival",
-      "restaurantUrl": "https://en.hoteldesdromonts.com/restaurants",
-      "phone": "+33 4 50 74 12 54",
-      "address": "Hotel des Dromonts, Place des Dromonts, 74110 Avoriaz",
-      "cuisine": "Modern French",
-      "comment": "Le Festival",
+      "name": "Le Tabakman",
+      "restaurantUrl": "https://www.arc1950.com/en/commerces/le-gourmet-montagnard-20",
+      "phone": "",
+      "address": "Our Hotel",
+      "cuisine": "Wine, Cheese, Ham, and wine",
+      "comment": "Boats and Hoes",
       "id": "booking-5"
     },
     {
