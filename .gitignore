@@ -43,3 +43,5 @@ api/.vercel/*
 next-env.d.ts
 codebase.md
 .qodo
+/dist/*
+
