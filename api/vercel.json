@@ -8,39 +8,44 @@
   ],
   "routes": [
     {
+      "src": "/api/(.*)",
+      "dest": "src/options.ts",
+      "methods": ["OPTIONS"]
+    },
+    {
       "src": "/api/restaurants",
       "dest": "src/restaurants/restaurants.ts",
-      "methods": ["GET", "OPTIONS"]
+      "methods": ["GET"]
     },
     {
       "src": "/api/weather",
       "dest": "src/weather/weather.ts",
-      "methods": ["GET", "OPTIONS"]
+      "methods": ["GET"]
     },
     {
       "src": "/api/push/subscribe",
       "dest": "src/push/subscribe.ts",
-      "methods": ["POST", "OPTIONS"]
+      "methods": ["POST"]
     },
     {
       "src": "/api/push/test",
       "dest": "src/push/test.ts",
-      "methods": ["GET", "OPTIONS"]
+      "methods": ["GET"]
     },
     {
       "src": "/api/scheduled/daily-weather",
       "dest": "src/scheduled/daily-weather.ts",
-      "methods": ["GET", "POST", "OPTIONS"]
+      "methods": ["GET", "POST"]
     },
     {
       "src": "/api/scheduled/daily-restaurant",
       "dest": "src/scheduled/daily-restaurant.ts",
-      "methods": ["GET", "POST", "OPTIONS"]
+      "methods": ["GET", "POST"]
     },
     {
       "src": "/api/ping",
-      "dest": "src/ping.ts",
-      "methods": ["GET", "OPTIONS"]
+      "dest": "src/ping/ping.ts",
+      "methods": ["GET"]
     }
   ],
   "crons": [

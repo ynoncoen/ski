@@ -3,7 +3,6 @@
     "target": "es2017",
     "module": "commonjs",
     "outDir": "./dist",
-    "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -13,6 +12,6 @@
     "isolatedModules": true,
     "incremental": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "../src/config/trip-dates.ts"],
   "exclude": ["node_modules"]
 }

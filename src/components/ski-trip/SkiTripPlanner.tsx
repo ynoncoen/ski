@@ -8,9 +8,10 @@ import RestaurantsTab from './RestaurantsTab';
 import WeatherTab from './WeatherTab';
 import FlightCountdown from "./FlightCountdown";
 
+const validTabs = ['travel', 'restaurants', 'weather', 'packing'];
+const defaultTab = 'travel';
+
 const SkiTripPlanner: React.FC = () => {
-    const validTabs = ['travel', 'restaurants', 'weather', 'packing'];
-    const defaultTab = 'travel';
 
     // Initialize active tab from URL hash or default
     // Initialize with default tab to avoid hydration mismatch
@@ -42,7 +43,7 @@ const SkiTripPlanner: React.FC = () => {
         return () => {
             window.removeEventListener('hashchange', handleHashChange);
         };
-    }, [validTabs, defaultTab]);
+    }, []);
 
     const handleTabChange = (value: string) => {
         setActiveTab(value);
