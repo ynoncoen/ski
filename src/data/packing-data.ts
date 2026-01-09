@@ -43,13 +43,13 @@ export const packingData = [
             "Night Tracksuit",
             "Long Sleeve Night Shirt",
             "Slippers",
-            "Swimsuit"
+            "Swimsuit",
+            "Night Gloves"
         ]
     },
     {
         title: "Toiletries",
         items: [
-            "Toiletry Bag",
             "Shampoo",
             "Toothpaste",
             "Toothbrush",
@@ -87,12 +87,14 @@ export const packingData = [
         title: "Group Items",
         items: [
             "Kitchen Cutting Knives",
-            "Tabakman/Ynon: Coffee",
-            "Tabakman/Ynon: Humidifier",
+            "Tabakman: Coffee",
+            "Tabakman: Humidifier",
             "Ynon: Additional Humidifier",
-            "Ynon: Flasks",
-            "Ynon: Moka Pot",
-            "Uri: JBL Speaker"
+            "Tabakman: Garlic Masher",
+            "Ynon: Machinetta",
+            "Uri: JBL Speaker",
+            "Tabakman: Chant (speaker)",
+            "Ynon: Small Speaker"
         ]
     }
 ];
