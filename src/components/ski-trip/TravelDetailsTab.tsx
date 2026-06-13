@@ -99,11 +99,11 @@ const TravelDetailsTab: React.FC = () => {
     };
 
     const accommodation = {
-        name: 'Arc 1950 Village',
+        name: 'Residence Ynycio Val Claret',
         checkIn: TRIP_CONFIG.ACCOMMODATION.CHECK_IN,
         checkOut: TRIP_CONFIG.ACCOMMODATION.CHECK_OUT,
         duration: TRIP_CONFIG.ACCOMMODATION.DURATION,
-        roomType: 'TBA'
+        roomType: '4-person apartment with spa'
     };
 
     return (
@@ -239,14 +239,18 @@ const TravelDetailsTab: React.FC = () => {
                         <h3 className="font-semibold text-lg">Tignes</h3>
                         <div className="space-y-3 text-sm">
                             <p>
-                                <strong>Resort:</strong> Tignes is a large ski area in the French Alps, part of the massive Paradiski domain 
-                                (425km of slopes) connected to Val D&aposFIsere via the Vanoise Express cable car.
+                                <strong>Resort:</strong> Combining the rugged, high-altitude glacier skiing of Tignes with the traditional alpine charm and sophisticated luxury of Val d&#39;Is&grave;re, 
+                                this legendary combined resort offers an unparalleled 300 kilometers of interconnected winter playground. Seamlessly linking two of the world&#39;s most iconic ski destinations, 
+                                it serves up a flawless mix of world-class high-consequence terrain, guaranteed snow conditions, and an unforgettable après-ski atmosphere.
                             </p>
                             <p>
-                                <strong>Tignes Val Claret:</strong> Awesoime place.
+                                <strong>Tignes Val Claret:</strong> Perched at an ultra-high altitude of 2,150 meters, Tignes Val Claret is the 
+                                ultimate ski-in/ski-out hub offering instant access to 300 kilometers of snow-sure slopes across the world-class Tignes-Val Val d&#39;Is&grave;re domain. 
+                                By day, carve your way down the iconic Grande Motte glacier, and by night, immerse yourself in the village's legendary aprés-ski scene and vibrant 
+                                alpine nightlife.
                             </p>
                             <p>
-                                <strong>Skiing:</strong> Access to 200km+ of slopes in Tignes plus connection to Val D&aposIsere. 
+                                <strong>Skiing:</strong> Access to 200km+ of slopes in Tignes plus connection to Val d&#39;Is&grave;re. 
                                 Suitable for all levels with excellent off-piste opportunities.
                             </p>
                         </div>
