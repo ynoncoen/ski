@@ -246,7 +246,7 @@ const TravelDetailsTab: React.FC = () => {
                             <p>
                                 <strong>Tignes Val Claret:</strong> Perched at an ultra-high altitude of 2,150 meters, Tignes Val Claret is the 
                                 ultimate ski-in/ski-out hub offering instant access to 300 kilometers of snow-sure slopes across the world-class Tignes-Val Val d&#39;Is&grave;re domain. 
-                                By day, carve your way down the iconic Grande Motte glacier, and by night, immerse yourself in the village's legendary aprés-ski scene and vibrant 
+                                By day, carve your way down the iconic Grande Motte glacier, and by night, immerse yourself in the legendary aprés-ski scene and vibrant 
                                 alpine nightlife.
                             </p>
                             <p>

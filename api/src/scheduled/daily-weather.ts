@@ -18,7 +18,7 @@ interface WeatherSummary {
 
 async function getDailyWeatherSummary(): Promise<WeatherSummary> {
     try {
-        const response = await fetch('https://www.snow-forecast.com/resorts/Les-Arcs/6day/top');
+        const response = await fetch('https://www.snow-forecast.com/resorts/tignes/6day/top');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -103,8 +103,8 @@ export default async function handler(
             response.status(200).json({
                 message: 'Weather notifications not active - outside of notification window',
                 notificationWindow: {
-                    start: 'One month before trip (December 17, 2025)',
-                    end: 'Last day of trip (January 24, 2026)'
+                    start: 'One month before trip (Janury 1, 2026)',
+                    end: 'Last day of trip (January 9, 2027)'
                 }
             });
             return;
