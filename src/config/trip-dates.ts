@@ -8,14 +8,14 @@ export const TRIP_CONFIG = {
   
   // Flight details
   OUTBOUND_FLIGHT: {
-    DATE: '2026-01-17',
-    TIME: '05:50',
+    DATE: '2027-01-02',
+    TIME: '09:40',
     TIMEZONE: '+02:00', // Tel Aviv time (UTC+2)
   },
   
   RETURN_FLIGHT: {
-    DATE: '2026-01-24',
-    TIME: '10:30',
+    DATE: '2027-01-09',
+    TIME: '14:20',
     TIMEZONE: '+01:00', // Grenoble time (UTC+1)
   },
   
@@ -29,22 +29,22 @@ export const TRIP_CONFIG = {
   
   RESTAURANT_NOTIFICATIONS: {
     // Start 1 week before trip
-    START_DATE: '2026-01-10',
+    START_DATE: '2027-01-01',
     // End on the last day of the trip
-    END_DATE: '2026-01-24',
+    END_DATE: '2026-01-09',
   },
   
   // Accommodation details
   ACCOMMODATION: {
-    CHECK_IN: 'January 17, 2026',
-    CHECK_OUT: 'January 24, 2026',
+    CHECK_IN: 'January 02, 2027',
+    CHECK_OUT: 'January 09, 2027',
     DURATION: '7 nights',
   },
   
   // Google Calendar date formats
   GOOGLE_CALENDAR: {
-    START_DATE: '20260117',
-    END_DATE: '20260125', // End date is exclusive in Google Calendar
+    START_DATE: '20270102',
+    END_DATE: '20270109', // End date is exclusive in Google Calendar
   },
 };
 
