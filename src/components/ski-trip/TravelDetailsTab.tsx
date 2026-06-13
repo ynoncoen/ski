@@ -6,19 +6,19 @@ import { TRIP_CONFIG } from '@/config/trip-dates';
 
 const TravelDetailsTab: React.FC = () => {
     const outboundFlight = {
-        flightNumber: 'ISRAIR 6H141',
+        flightNumber: 'ISRAIR 6H143',
         departure: 'Tel Aviv (TLV)',
         departureTime: TRIP_CONFIG.OUTBOUND_FLIGHT.TIME,
         arrival: 'Grenoble (GNB)',
-        arrivalTime: 'TBA'
+        arrivalTime: '13:20'
     };
 
     const returnFlight = {
-        flightNumber: 'ISRAIR 6H142',
+        flightNumber: 'ISRAIR 6H144',
         departure: 'Grenoble (GNB)',
         departureTime: TRIP_CONFIG.RETURN_FLIGHT.TIME,
         arrival: 'Tel Aviv (TLV)',
-        arrivalTime: 'TBA'
+        arrivalTime: '19:30'
     };
 
     const createGoogleCalendarUrl = (flight: { flightNumber: string; departure: string; departureTime: string; arrival: string; arrivalTime: string }, date: string) => {
