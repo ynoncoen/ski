@@ -10,12 +10,12 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
     title: "Les Arcs",
-    description: "Ski Trip planner for Les Arcs",
+    description: "Ski Trip planner for Tignes",
     manifest: '/ski/manifest.json',
     appleWebApp: {
         capable: true,
         statusBarStyle: 'default',
-        title: 'Les Arcs',
+        title: 'Tignes',
     },
     icons: {
         icon: [
