@@ -73,7 +73,7 @@ const SkiTripPlanner: React.FC = () => {
                     <h1 className="text-3xl md:text-4xl font-bold text-slate-900 mb-3">
                         Ski Trip to Tignes
                     </h1>
-                    <p className="text-slate-600">January 02-08, 2027</p>
+                    <p className="text-slate-600">January 02-09, 2027</p>
                     <FlightCountdown />
                 </header>
 
