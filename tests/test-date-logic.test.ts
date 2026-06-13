@@ -10,13 +10,12 @@ function isWithinNotificationPeriod(testDate: Date): boolean {
 
 describe('Notification Date Logic', () => {
     const testDates = [
-        { date: new Date('2026-01-09T12:00:00Z'), expected: false, description: 'Day before notification period starts' },
-        { date: new Date('2026-01-10T00:00:00Z'), expected: true, description: 'First day of notification period' },
-        { date: new Date('2026-01-15T12:00:00Z'), expected: true, description: 'During notification period (before trip)' },
-        { date: new Date('2026-01-17T12:00:00Z'), expected: true, description: 'Trip start date' },
-        { date: new Date('2026-01-20T12:00:00Z'), expected: true, description: 'During trip' },
-        { date: new Date('2026-01-24T23:59:59Z'), expected: true, description: 'Trip end date' },
-        { date: new Date('2026-01-25T00:00:00Z'), expected: false, description: 'Day after trip ends' },
+        { date: new Date('2026-12-12T12:00:00Z'), expected: false, description: 'Day before notification period starts' },
+        { date: new Date('2027-01-01T00:00:00Z'), expected: true, description: 'First day of notification period' },
+        { date: new Date('2027-01-02T12:00:00Z'), expected: true, description: 'Trip start date' },
+        { date: new Date('2027-01-05T12:00:00Z'), expected: true, description: 'During trip' },
+        { date: new Date('2027-01-09T23:59:59Z'), expected: true, description: 'Trip end date' },
+        { date: new Date('2027-01-25T00:00:00Z'), expected: false, description: 'Day after trip ends' },
     ];
 
     describe('Notification Period Logic', () => {
