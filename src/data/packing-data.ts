@@ -90,8 +90,8 @@ export const packingData = [
             "Tabakman: Coffee",
             "Tabakman: Humidifier",
             "Ynon: Additional Humidifier",
-            "Tabakman: Garlic Masher",
             "Ynon: Machinetta",
+            "Ynon: Induction Adapter",
             "Uri: JBL Speaker",
             "Tabakman: Chant (speaker)",
             "Ynon: Small Speaker"
