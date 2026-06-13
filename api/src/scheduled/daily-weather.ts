@@ -113,7 +113,7 @@ export default async function handler(
         const summary = await getDailyWeatherSummary();
 
         // Create notification message
-        let message = `Today's Weather at Les Arcs (2000m):\n`;
+        let message = `Today's Weather at Tignes:\n`;
         message += `Temperature: ${summary.minTemp}°C to ${summary.maxTemp}°C\n`;
 
         const { morning, afternoon, night } = summary.snowfall;

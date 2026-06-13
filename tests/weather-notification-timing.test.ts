@@ -37,7 +37,7 @@ async function mockWeatherHandler(testDate: Date) {
         conditions: ['partly cloudy', 'snow showers', 'clear']
     };
 
-    let message = `Today's Weather at Les Arcs (2000m):\n`;
+    let message = `Today's Weather at Tignes (2000m):\n`;
     message += `Temperature: ${mockWeatherSummary.minTemp}°C to ${mockWeatherSummary.maxTemp}°C\n`;
 
     const { morning, afternoon, night } = mockWeatherSummary.snowfall;
@@ -93,7 +93,7 @@ describe('Weather Notification Timing System', () => {
             expect(result.notificationSent).toBe(true);
             expect(result.notificationTitle).toBe('⛷️ Daily Snow Report');
             expect(result.notificationBody).toContain('Temperature:');
-            expect(result.notificationBody).toContain('Les Arcs (2000m)');
+            expect(result.notificationBody).toContain('Tignes (2000m)');
             expect(result.summary).toBeDefined();
         });
 

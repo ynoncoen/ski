@@ -132,7 +132,7 @@ const RestaurantsTab: React.FC = () => {
                         </div>
 
                         <div className="space-y-4">
-                            <h3 className="font-semibold text-lg border-b pb-2">Les Arcs Restaurant Options</h3>
+                            <h3 className="font-semibold text-lg border-b pb-2">Tignes Restaurant Options</h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 {restaurantData.additionalRestaurants.map((restaurant) => (
                                     <div key={restaurant.id} className="p-4 rounded-lg bg-muted/50">

@@ -127,4 +127,4 @@ The tests validate core functionality without external dependencies and provide 
 **Trip Dates:** January 17-24, 2026  
 **Notification Period:** January 10-24, 2026 (1 week before until trip end)  
 **Weather Notifications:** December 17, 2025 - January 24, 2026 (1 month before until trip end)  
-**Destination:** Les Arcs - Arc 1950, France
+**Destination:** Tignes

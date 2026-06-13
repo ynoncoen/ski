@@ -64,11 +64,11 @@ const TravelDetailsTab: React.FC = () => {
         const startDate = TRIP_CONFIG.GOOGLE_CALENDAR.START_DATE;
         const endDate = TRIP_CONFIG.GOOGLE_CALENDAR.END_DATE; // End date is exclusive in Google Calendar
         
-        const title = encodeURIComponent('Vacation - Skiing in Les Arcs');
-        const location = encodeURIComponent('Les Arcs, France');
+        const title = encodeURIComponent('Vacation - Skiing in Tignes');
+        const location = encodeURIComponent('Tignes, France');
         const details = encodeURIComponent(
-            'Skiing vacation in Les Arcs, France\n' +
-            'Staying at Arc 1950 Village\n' +
+            'Skiing vacation in Tignes, France\n' +
+            'Staying at Tignes Val Claret\n' +
             'Out of office - skiing in the French Alps'
         );
         
@@ -236,23 +236,18 @@ const TravelDetailsTab: React.FC = () => {
                 </CardHeader>
                 <CardContent>
                     <div className="space-y-4">
-                        <h3 className="font-semibold text-lg">Les Arcs - Arc 1950</h3>
+                        <h3 className="font-semibold text-lg">Tignes</h3>
                         <div className="space-y-3 text-sm">
                             <p>
-                                <strong>Resort:</strong> Les Arcs is a large ski area in the French Alps, part of the massive Paradiski domain 
-                                (425km of slopes) connected to La Plagne via the Vanoise Express cable car.
+                                <strong>Resort:</strong> Tignes is a large ski area in the French Alps, part of the massive Paradiski domain 
+                                (425km of slopes) connected to Val D'Isere via the Vanoise Express cable car.
                             </p>
                             <p>
-                                <strong>Arc 1950:</strong> The newest and most modern village in Les Arcs, built in traditional Savoyard style 
-                                with luxury residences, restaurants, and shops. Located at 1950m altitude.
+                                <strong>Tignes Val Claret:</strong> Awesoime place.
                             </p>
                             <p>
-                                <strong>Skiing:</strong> Access to 200km+ of slopes in Les Arcs plus connection to La Plagne. 
+                                <strong>Skiing:</strong> Access to 200km+ of slopes in Tignes plus connection to Val D'Isere. 
                                 Suitable for all levels with excellent off-piste opportunities.
-                            </p>
-                            <p>
-                                <strong>Village Features:</strong> Car-free pedestrian village with ski-in/ski-out access, 
-                                heated outdoor pools, spas, and boutiques. Direct access to Cabriolet funicular.
                             </p>
                         </div>
                     </div>
