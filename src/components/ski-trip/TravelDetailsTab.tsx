@@ -240,13 +240,13 @@ const TravelDetailsTab: React.FC = () => {
                         <div className="space-y-3 text-sm">
                             <p>
                                 <strong>Resort:</strong> Tignes is a large ski area in the French Alps, part of the massive Paradiski domain 
-                                (425km of slopes) connected to Val D'Isere via the Vanoise Express cable car.
+                                (425km of slopes) connected to Val D&aposFIsere via the Vanoise Express cable car.
                             </p>
                             <p>
                                 <strong>Tignes Val Claret:</strong> Awesoime place.
                             </p>
                             <p>
-                                <strong>Skiing:</strong> Access to 200km+ of slopes in Tignes plus connection to Val D'Isere. 
+                                <strong>Skiing:</strong> Access to 200km+ of slopes in Tignes plus connection to Val D&aposIsere. 
                                 Suitable for all levels with excellent off-piste opportunities.
                             </p>
                         </div>
