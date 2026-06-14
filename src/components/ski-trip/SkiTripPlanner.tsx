@@ -7,8 +7,9 @@ import PackingTab from './PackingTab';
 import RestaurantsTab from './RestaurantsTab';
 import WeatherTab from './WeatherTab';
 import FlightCountdown from "./FlightCountdown";
+import SkiItineraryTab from './SkiItinteraryTab';
 
-const validTabs = ['travel', 'restaurants', 'weather', 'packing'];
+const validTabs = ['travel', 'restaurants', 'weather', 'itinerary', 'packing'];
 const defaultTab = 'travel';
 
 const SkiTripPlanner: React.FC = () => {
@@ -168,6 +169,14 @@ const SkiTripPlanner: React.FC = () => {
                             <span className="md:hidden">Weather</span>
                         </TabsTrigger>
 
+                        <TabsTrigger value="itinerary" className="flex items-center justify-center gap-1 text-xs md:text-sm px-2 py-1.5">
+                            <div className="relative">
+                                <Plane className={`h-4 w-4 ${isAnimating && activeTab === 'travel' ? 'animate-plane' : ''}`}/>
+                            </div>
+                            <span className="hidden md:inline">Skiing Itinerary</span>
+                            <span className="md:hidden">Itinerary</span>
+                        </TabsTrigger>
+
                         <TabsTrigger value="packing" className="flex items-center justify-center gap-1 text-xs md:text-sm px-2 py-1.5">
                             <div className="relative">
                                 <Luggage className={`h-4 w-4 ${isAnimating && activeTab === 'packing' ? 'animate-luggage' : ''}`}/>
@@ -185,6 +194,9 @@ const SkiTripPlanner: React.FC = () => {
                     </TabsContent>
                     <TabsContent value="weather">
                         <WeatherTab />
+                    </TabsContent>
+                    <TabsContent value="itinerary">
+                        <SkiItineraryTab />
                     </TabsContent>
                     <TabsContent value="packing">
                         <PackingTab />
