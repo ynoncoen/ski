@@ -132,7 +132,7 @@ class SkiItineraryTab extends Component {
         {
           time: "09:00 AM",
           title: "First Lifts & Sector Crossing",
-          description: <>Catch the high-capacity <strong>Tufs</strong> or <strong>Tovière</strong> gondola straight out of Val Claret to the 2,704m Tovière crest line. Cross over the ridge line into the Val d'Isère domain via the long, beautifully prepared {this.renderPiste("Diebold", "blue")} carving run.</>
+          description: <>Catch the high-capacity <strong>Tufs</strong> or <strong>Tovière</strong> gondola straight out of Val Claret to the 2,704m Tovière crest line. Cross over the ridge line into the Val d&apos;Isère domain via the long, beautifully prepared {this.renderPiste("Diebold", "blue")} carving run.</>
         },
         {
           time: "Morning",
@@ -170,7 +170,7 @@ class SkiItineraryTab extends Component {
         {
           time: "09:00 AM",
           title: "Long Range Transit",
-          description: <>Take the <strong>Fresse</strong> or <strong>Tufs</strong> chair out of Val Claret, cruise down through Val d'Isère center, and ride the high-speed <strong>Solaise Express</strong>. Ski down the easy <strong>Marmottes</strong> link to catch the <strong>Fornet Cable Car</strong> followed by the <strong>Vallon</strong> gondola to arrive at the remote <strong>Pissaillas Glacier</strong>.</>
+          description: <>Take the <strong>Fresse</strong> or <strong>Tufs</strong> chair out of Val Claret, cruise down through Val d&apos;Isère center, and ride the high-speed <strong>Solaise Express</strong>. Ski down the easy <strong>Marmottes</strong> link to catch the <strong>Fornet Cable Car</strong> followed by the <strong>Vallon</strong> gondola to arrive at the remote <strong>Pissaillas Glacier</strong>.</>
         },
         {
           time: "Morning",
@@ -190,7 +190,7 @@ class SkiItineraryTab extends Component {
         {
           time: "11:30 AM",
           title: "🍽️ Early Lunch",
-          description: <><strong>L'Edelweiss</strong> (Located directly alongside the forested lower section of the Mangard run). A highly acclaimed, romantic log-cabin restaurant serving refined, upscale gastronomy. Indulge in slow-cooked duck confit, fresh chanterelle pasta, or exquisite house desserts next to an open fire.</>
+          description: <><strong>L&apos;Edelweiss</strong> (Located directly alongside the forested lower section of the Mangard run). A highly acclaimed, romantic log-cabin restaurant serving refined, upscale gastronomy. Indulge in slow-cooked duck confit, fresh chanterelle pasta, or exquisite house desserts next to an open fire.</>
         },
         {
           time: "Afternoon",
@@ -266,7 +266,7 @@ class SkiItineraryTab extends Component {
         {
           time: "11:30 AM",
           title: "🍽️ Celebratory Final Lunch",
-          description: <><strong>L'Escale Blanche</strong> (Tignes Lee Lac). This premier slope-side restaurant features a massive, sun-drenched wooden patio. Celebrate your final day on the slopes with their incredible gourmet artisan pizzas, fresh flame-grilled burgers, or traditional pierrade platters.</>
+          description: <><strong>L&apos;Escale Blanche</strong> (Tignes Lee Lac). This premier slope-side restaurant features a massive, sun-drenched wooden patio. Celebrate your final day on the slopes with their incredible gourmet artisan pizzas, fresh flame-grilled burgers, or traditional pierrade platters.</>
         },
         {
           time: "Afternoon",
