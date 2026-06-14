@@ -99,7 +99,7 @@ class SkiItineraryTab extends Component {
         {
           time: "09:00 AM",
           title: "First Lifts & Cross-Bowl Transit",
-          description: <>Board the <strong>Tichot</strong> express out of Val Claret, link into the <strong>Grattalu</strong> detachable chair, and fly down the wide, open {this.renderPiste("Grattalu", "blue")} slope. Cross the Le Lac valley floor to board the high-speed <strong>Palafour</strong> chairlift, transferring directly to the <strong>Aiguille Percée</strong> chairlift to arrive beside the famous natural "Eye of the Needle" rock structure.</>
+          description: <>Board the <strong>Tichot</strong> express out of Val Claret, link into the <strong>Grattalu</strong> detachable chair, and fly down the wide, open {this.renderPiste("Grattalu", "blue")} slope. Cross the Le Lac valley floor to board the high-speed <strong>Palafour</strong> chairlift, transferring directly to the <strong>Aiguille Percée</strong> chairlift to arrive beside the famous natural &quot;Eye of the Needle&quot; rock structure.</>
         },
         {
           time: "10:30 AM",
@@ -266,7 +266,7 @@ class SkiItineraryTab extends Component {
         {
           time: "11:30 AM",
           title: "🍽️ Celebratory Final Lunch",
-          description: <><strong>L'Escale Blanche</strong> (Tignes Le Lac). This premier slope-side restaurant features a massive, sun-drenched wooden patio. Celebrate your final day on the slopes with their incredible gourmet artisan pizzas, fresh flame-grilled burgers, or traditional pierrade platters.</>
+          description: <><strong>L'Escale Blanche</strong> (Tignes Lee Lac). This premier slope-side restaurant features a massive, sun-drenched wooden patio. Celebrate your final day on the slopes with their incredible gourmet artisan pizzas, fresh flame-grilled burgers, or traditional pierrade platters.</>
         },
         {
           time: "Afternoon",
@@ -284,7 +284,7 @@ class SkiItineraryTab extends Component {
         {/* Header Hero Section */}
         <header className="bg-gradient-to-br from-slate-900 to-blue-900 text-white p-6 md:p-8 rounded-xl shadow-md mb-8">
           <h1 className="text-2xl md:text-3xl font-bold tracking-tight mb-2">🏔️ 6-Day Custom Ski Itinerary</h1>
-          <p className="text-sm md:text-base text-gray-300 mb-6">Tignes &amp; Val d'Isère Premium Red &amp; Blue Piste Cruiser Guide</p>
+          <p className="text-sm md:text-base text-gray-300 mb-6">Tignes &amp; Val d&apos;Isère Premium Red &amp; Blue Piste Cruiser Guide</p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4 border-t border-slate-700/60 text-xs md:text-sm">
             <div>
@@ -339,7 +339,7 @@ class SkiItineraryTab extends Component {
                   <div key={idx} className="relative pl-6 group">
                     
                     {/* Visual node separator decoration */}
-                    <div className="absolute left-0 top-1.5 w-2.5 height h-2.5 rounded-full bg-blue-600 z-10" />
+                    <div className="absolute left-0 top-1.5 w-2.5 h-2.5 rounded-full bg-blue-600 z-10" />
                     {idx !== day.schedule.length - 1 && (
                       <div className="absolute left-[4px] top-4 w-[2px] h-[calc(100%+1.5rem)] bg-gray-200" />
                     )}
