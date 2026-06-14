@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Plane, UtensilsCrossed, CloudSun, Luggage, Snowflake } from 'lucide-react';
+import { Plane, UtensilsCrossed, CloudSun, Luggage, Snowflake, MountainSnow } from 'lucide-react';
 import TravelDetailsTab from './TravelDetailsTab';
 import PackingTab from './PackingTab';
 import RestaurantsTab from './RestaurantsTab';
@@ -141,45 +141,46 @@ const SkiTripPlanner: React.FC = () => {
                 `}</style>
 
                 <Tabs defaultValue="travel" value={activeTab} onValueChange={handleTabChange} className="w-full space-y-6">
-                    <TabsList className="grid w-full grid-cols-2 md:grid-cols-4 gap-1 p-1">
-                        <TabsTrigger value="travel" className="flex items-center justify-center gap-1 text-xs md:text-sm px-2 py-1.5">
+                    {/* CHANGED: Switched layout to grid-cols-5 to force all 5 items onto one line */}
+                    <TabsList className="grid w-full grid-cols-5 gap-1 p-1">
+                        
+                        <TabsTrigger value="travel" className="flex flex-col md:flex-row items-center justify-center gap-0.5 md:gap-1 text-[10px] sm:text-xs md:text-sm px-1 md:px-2 py-1.5">
                             <div className="relative">
-                                <Plane className={`h-4 w-4 ${isAnimating && activeTab === 'travel' ? 'animate-plane' : ''}`}/>
+                                <Plane className={`h-3.5 w-3.5 md:h-4 md:w-4 ${isAnimating && activeTab === 'travel' ? 'animate-plane' : ''}`}/>
                             </div>
                             <span className="hidden md:inline">Travel Details</span>
                             <span className="md:hidden">Travel</span>
                         </TabsTrigger>
 
-                        <TabsTrigger value="restaurants" className="flex items-center justify-center gap-1 text-xs md:text-sm px-2 py-1.5">
+                        <TabsTrigger value="restaurants" className="flex flex-col md:flex-row items-center justify-center gap-0.5 md:gap-1 text-[10px] sm:text-xs md:text-sm px-1 md:px-2 py-1.5">
                             <div className="relative">
-                                <UtensilsCrossed className={`h-4 w-4 ${isAnimating && activeTab === 'restaurants' ? 'animate-utensils' : ''}`}/>
+                                <UtensilsCrossed className={`h-3.5 w-3.5 md:h-4 md:w-4 ${isAnimating && activeTab === 'restaurants' ? 'animate-utensils' : ''}`}/>
                             </div>
                             <span className="hidden md:inline">Restaurants</span>
                             <span className="md:hidden">Food</span>
                         </TabsTrigger>
 
-                        <TabsTrigger value="weather" className="flex items-center justify-center gap-1 text-xs md:text-sm px-2 py-1.5">
+                        <TabsTrigger value="weather" className="flex flex-col md:flex-row items-center justify-center gap-0.5 md:gap-1 text-[10px] sm:text-xs md:text-sm px-1 md:px-2 py-1.5">
                             <div className="weather-icon-container">
-                                <CloudSun className={`weather-icon h-4 w-4 ${isAnimating && activeTab === 'weather' ? 'animate-weather' : ''}`}
-                                          style={{ opacity: showSnowflake ? 0 : 1 }} />
-                                <Snowflake className={`weather-icon h-5 w-5 stroke-2 text-blue-600 ${isAnimating && activeTab === 'weather' ? 'animate-weather' : ''}`}
-                                           style={{ opacity: showSnowflake ? 1 : 0, transform: 'translate(-2px, -2px)' }} />
+                                <CloudSun className={`weather-icon h-3.5 w-3.5 md:h-4 md:w-4 ${isAnimating && activeTab === 'weather' ? 'animate-weather' : ''}`}
+                                        style={{ opacity: showSnowflake ? 0 : 1 }} />
+                                <Snowflake className={`weather-icon h-4 w-4 md:h-5 md:w-5 stroke-2 text-blue-600 ${isAnimating && activeTab === 'weather' ? 'animate-weather' : ''}`}
+                                        style={{ opacity: showSnowflake ? 1 : 0, transform: 'translate(-2px, -2px)' }} />
                             </div>
                             <span className="hidden md:inline">Weather</span>
                             <span className="md:hidden">Weather</span>
                         </TabsTrigger>
 
-                        <TabsTrigger value="itinerary" className="flex items-center justify-center gap-1 text-xs md:text-sm px-2 py-1.5">
+                        <TabsTrigger value="itinerary" className="flex flex-col md:flex-row items-center justify-center gap-0.5 md:gap-1 text-[10px] sm:text-xs md:text-sm px-1 md:px-2 py-1.5">
+                                    <div className="relative">
+                                        <MountainSnow className={`h-3.5 w-3.5 md:h-4 md:w-4 ${isAnimating && activeTab === 'itinerary' ? 'animate-mountain' : ''}`}/>
+                                    </div>
+                                    <span className="hidden md:inline">Skiing Itinerary</span>
+                                    <span className="md:hidden">Itinerary</span>
+                                </TabsTrigger>
+                        <TabsTrigger value="packing" className="flex flex-col md:flex-row items-center justify-center gap-0.5 md:gap-1 text-[10px] sm:text-xs md:text-sm px-1 md:px-2 py-1.5">
                             <div className="relative">
-                                <Plane className={`h-4 w-4 ${isAnimating && activeTab === 'travel' ? 'animate-plane' : ''}`}/>
-                            </div>
-                            <span className="hidden md:inline">Skiing Itinerary</span>
-                            <span className="md:hidden">Itinerary</span>
-                        </TabsTrigger>
-
-                        <TabsTrigger value="packing" className="flex items-center justify-center gap-1 text-xs md:text-sm px-2 py-1.5">
-                            <div className="relative">
-                                <Luggage className={`h-4 w-4 ${isAnimating && activeTab === 'packing' ? 'animate-luggage' : ''}`}/>
+                                <Luggage className={`h-3.5 w-3.5 md:h-4 md:w-4 ${isAnimating && activeTab === 'packing' ? 'animate-luggage' : ''}`}/>
                             </div>
                             <span className="hidden md:inline">Packing</span>
                             <span className="md:hidden">Pack</span>
